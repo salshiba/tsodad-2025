@@ -25,8 +25,7 @@ def fishboner(list1):
 def sword_value(list1):
 
     _, spine, _ = fishboner(list1)
-    spine = list(map(str, spine))
-
+    
     return int("".join(spine))
 
 def all_levels(list1):
